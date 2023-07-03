@@ -169,7 +169,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(109, 50);
             this.label7.TabIndex = 0;
-            this.label7.Text = "10 ㎍/m³";
+            this.label7.Text = "10 ㎍/㎥";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label8
