@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ELV_Status_Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ELV_Status_Info.Designer.cs">
+      <DependentUpon>ELV_Status_Info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Time_Weather_Info.Designer.cs">
       <DependentUpon>Time_Weather_Info.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ELV_Status_Info.resx">
+      <DependentUpon>ELV_Status_Info.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
