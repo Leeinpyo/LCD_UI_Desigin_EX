@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.text_Scrolling1 = new LCD_UI_Desigin_EX.Text_Scrolling();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.text_Scrolling1 = new LCD_UI_Desigin_EX.Text_Scrolling();
             this.time_Weather_Info1 = new LCD_UI_Desigin_EX.Time_Weather_Info();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,12 +59,27 @@
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.96104F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.03896F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.32901F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.67099F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1260, 540);
             this.tableLayoutPanel1.TabIndex = 2;
+            // 
+            // text_Scrolling1
+            // 
+            this.text_Scrolling1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.text_Scrolling1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.text_Scrolling1.Font = new System.Drawing.Font("HY견고딕", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.text_Scrolling1.ForeColor = System.Drawing.SystemColors.Info;
+            this.text_Scrolling1.Location = new System.Drawing.Point(436, 462);
+            this.text_Scrolling1.Margin = new System.Windows.Forms.Padding(0);
+            this.text_Scrolling1.Name = "text_Scrolling1";
+            this.text_Scrolling1.Set_Speed = 9F;
+            this.text_Scrolling1.Size = new System.Drawing.Size(824, 78);
+            this.text_Scrolling1.TabIndex = 1;
+            this.text_Scrolling1.Text = "공지사항 주의사항 등등";
+            this.text_Scrolling1.UseCompatibleTextRendering = true;
             // 
             // pictureBox1
             // 
@@ -122,32 +136,16 @@
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
-            // text_Scrolling1
-            // 
-            this.text_Scrolling1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.text_Scrolling1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.text_Scrolling1.Font = new System.Drawing.Font("HY견고딕", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.text_Scrolling1.ForeColor = System.Drawing.SystemColors.Info;
-            this.text_Scrolling1.Location = new System.Drawing.Point(436, 462);
-            this.text_Scrolling1.Margin = new System.Windows.Forms.Padding(0);
-            this.text_Scrolling1.Name = "text_Scrolling1";
-            this.text_Scrolling1.Set_Speed = 9F;
-            this.text_Scrolling1.Size = new System.Drawing.Size(824, 78);
-            this.text_Scrolling1.TabIndex = 1;
-            this.text_Scrolling1.Text = "공지사항 주의사항 등등";
-            this.text_Scrolling1.UseCompatibleTextRendering = true;
-            // 
             // time_Weather_Info1
             // 
             this.time_Weather_Info1.BackColor = System.Drawing.Color.Transparent;
-            this.time_Weather_Info1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("time_Weather_Info1.BackgroundImage")));
-            this.time_Weather_Info1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.time_Weather_Info1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.tableLayoutPanel1.SetColumnSpan(this.time_Weather_Info1, 3);
             this.time_Weather_Info1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.time_Weather_Info1.Location = new System.Drawing.Point(0, 0);
             this.time_Weather_Info1.Margin = new System.Windows.Forms.Padding(0);
             this.time_Weather_Info1.Name = "time_Weather_Info1";
-            this.time_Weather_Info1.Size = new System.Drawing.Size(436, 180);
+            this.time_Weather_Info1.Size = new System.Drawing.Size(436, 251);
             this.time_Weather_Info1.TabIndex = 6;
             // 
             // Form1
