@@ -77,42 +77,42 @@
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(437, 180);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.label1, 2);
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("HY견고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 10, 6, 0);
-            this.label1.Size = new System.Drawing.Size(220, 72);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 20, 6, 0);
+            this.label1.Size = new System.Drawing.Size(220, 81);
             this.label1.TabIndex = 0;
             this.label1.Text = "2023-00-00\r\n인천, X요일";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.label2, 2);
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("HY견고딕", 38.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.label2.Location = new System.Drawing.Point(220, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.label2.Size = new System.Drawing.Size(217, 72);
+            this.label2.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label2.Size = new System.Drawing.Size(217, 81);
             this.label2.TabIndex = 0;
             this.label2.Text = "00:00";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -123,11 +123,11 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("HY견고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(327, 72);
+            this.label3.Location = new System.Drawing.Point(327, 81);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.label3.Size = new System.Drawing.Size(110, 54);
+            this.label3.Size = new System.Drawing.Size(110, 45);
             this.label3.TabIndex = 0;
             this.label3.Text = "10 ㎍/㎥";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -167,40 +167,41 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("HY견고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(220, 72);
+            this.label10.Location = new System.Drawing.Point(220, 81);
             this.label10.Margin = new System.Windows.Forms.Padding(0);
             this.label10.Name = "label10";
             this.label10.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.label10.Size = new System.Drawing.Size(107, 54);
+            this.label10.Size = new System.Drawing.Size(107, 45);
             this.label10.TabIndex = 0;
             this.label10.Text = "미세먼지";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::LCD_UI_Desigin_EX.Properties.Resources.w_02;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 72);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 88);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(7);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 2);
-            this.pictureBox1.Size = new System.Drawing.Size(109, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(95, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("HY견고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(109, 72);
+            this.label4.Location = new System.Drawing.Point(109, 81);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.label4.Size = new System.Drawing.Size(111, 54);
+            this.label4.Size = new System.Drawing.Size(111, 45);
             this.label4.TabIndex = 0;
             this.label4.Text = "💧75%";
             this.label4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -214,7 +215,7 @@
             this.label6.Location = new System.Drawing.Point(109, 126);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
-            this.label6.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.label6.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
             this.label6.Size = new System.Drawing.Size(111, 54);
             this.label6.TabIndex = 0;
             this.label6.Text = "32.9℃";

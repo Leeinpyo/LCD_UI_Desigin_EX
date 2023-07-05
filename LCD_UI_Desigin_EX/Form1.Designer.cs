@@ -45,10 +45,10 @@
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(185)))), ((int)(((byte)(232)))));
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 824F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.69841F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.190476F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.55556F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.55556F));
             this.tableLayoutPanel1.Controls.Add(this.text_Scrolling1, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 2);
@@ -59,10 +59,9 @@
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.32901F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.67099F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.66667F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.62963F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.51852F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1260, 540);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
@@ -72,11 +71,11 @@
             this.text_Scrolling1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.text_Scrolling1.Font = new System.Drawing.Font("HY견고딕", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.text_Scrolling1.ForeColor = System.Drawing.SystemColors.Info;
-            this.text_Scrolling1.Location = new System.Drawing.Point(436, 462);
+            this.text_Scrolling1.Location = new System.Drawing.Point(434, 466);
             this.text_Scrolling1.Margin = new System.Windows.Forms.Padding(0);
             this.text_Scrolling1.Name = "text_Scrolling1";
             this.text_Scrolling1.Set_Speed = 9F;
-            this.text_Scrolling1.Size = new System.Drawing.Size(824, 78);
+            this.text_Scrolling1.Size = new System.Drawing.Size(826, 74);
             this.text_Scrolling1.TabIndex = 1;
             this.text_Scrolling1.Text = "공지사항 주의사항 등등";
             this.text_Scrolling1.UseCompatibleTextRendering = true;
@@ -86,11 +85,11 @@
             this.pictureBox1.BackgroundImage = global::LCD_UI_Desigin_EX.Properties.Resources.전광판_홍보물;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(436, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(434, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 2);
-            this.pictureBox1.Size = new System.Drawing.Size(824, 462);
+            this.pictureBox1.Size = new System.Drawing.Size(826, 466);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -101,10 +100,10 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("HY견고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.SystemColors.Info;
-            this.label1.Location = new System.Drawing.Point(218, 462);
+            this.label1.Location = new System.Drawing.Point(238, 466);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 78);
+            this.label1.Size = new System.Drawing.Size(196, 74);
             this.label1.TabIndex = 3;
             this.label1.Text = "승강기 서비스 센터\r\n032-XXX-XXXX";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,10 +114,10 @@
             this.tableLayoutPanel1.SetColumnSpan(this.panel1, 2);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 462);
+            this.panel1.Location = new System.Drawing.Point(0, 466);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(218, 78);
+            this.panel1.Size = new System.Drawing.Size(238, 74);
             this.panel1.TabIndex = 5;
             // 
             // pictureBox3
@@ -132,7 +131,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(8, 0);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(202, 78);
+            this.pictureBox3.Size = new System.Drawing.Size(222, 74);
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
@@ -145,7 +144,7 @@
             this.time_Weather_Info1.Location = new System.Drawing.Point(0, 0);
             this.time_Weather_Info1.Margin = new System.Windows.Forms.Padding(0);
             this.time_Weather_Info1.Name = "time_Weather_Info1";
-            this.time_Weather_Info1.Size = new System.Drawing.Size(436, 251);
+            this.time_Weather_Info1.Size = new System.Drawing.Size(434, 252);
             this.time_Weather_Info1.TabIndex = 6;
             // 
             // Form1
