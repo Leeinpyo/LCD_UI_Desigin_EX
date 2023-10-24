@@ -83,6 +83,36 @@ namespace LCD_UI_Desigin_EX.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap LCDSettop_Blue {
+            get {
+                object obj = ResourceManager.GetObject("LCDSettop_Blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap LCDSettop_Gray {
+            get {
+                object obj = ResourceManager.GetObject("LCDSettop_Gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap LCDSettop_Gray2 {
+            get {
+                object obj = ResourceManager.GetObject("LCDSettop_Gray2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap topPanel2 {
             get {
                 object obj = ResourceManager.GetObject("topPanel2", resourceCulture);
@@ -103,9 +133,39 @@ namespace LCD_UI_Desigin_EX.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap topPanel4 {
+            get {
+                object obj = ResourceManager.GetObject("topPanel4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap topPanel41 {
+            get {
+                object obj = ResourceManager.GetObject("topPanel41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap w_02 {
             get {
                 object obj = ResourceManager.GetObject("w_02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap websiteplanet_qr {
+            get {
+                object obj = ResourceManager.GetObject("websiteplanet-qr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

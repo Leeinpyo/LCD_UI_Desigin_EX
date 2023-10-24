@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="LCD_UI_Desigin_EX.WaterUseage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LCD_UI_Desigin_EX"
+             mc:Ignorable="d" 
+             d:DesignHeight="58" d:DesignWidth="400">
+    <Grid Margin="12,0,0,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- 일 원형 게이지 및 정보 -->
+        <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Grid Width="40" Height="40">
+                <Ellipse Name="DayGauge" Fill="LightGray" Stroke="WhiteSmoke" StrokeThickness="1"/>
+                <Path Name="DayArc" Fill="DodgerBlue" Stroke="SkyBlue" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+            </Grid>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="DayUsageType" Text="일간 물 사용량" Foreground="WhiteSmoke" FontWeight="Bold" Margin="0,5,0,0"/>
+                <TextBlock x:Name="DayValue" Text="{Binding DailyUsageDisplay}" Foreground="AntiqueWhite" FontWeight="ExtraBold" FontSize="25" Margin="4,2,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- 월 원형 게이지 및 정보 -->
+        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Grid Width="40" Height="40">
+                <Ellipse Name="MonthGauge" Fill="LightGray" Stroke="WhiteSmoke" StrokeThickness="1"/>
+                <Path Name="MonthArc" Fill="DodgerBlue" Stroke="SkyBlue" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+            </Grid>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="MonthUsageType" Text="월간 물 사용량" Foreground="WhiteSmoke" FontWeight="Bold" Margin="0,5,0,0"/>
+                <TextBlock x:Name="MonthValue" Text="{Binding MonthlyUsageDisplay}" Foreground="AntiqueWhite" FontWeight="ExtraBold" FontSize="25" Margin="4,2,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- 년 원형 게이지 및 정보 -->
+        <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Grid Width="40" Height="40">
+                <Ellipse Name="YearGauge" Fill="LightGray" Stroke="WhiteSmoke" StrokeThickness="1"/>
+                <Path Name="YearArc" Fill="DodgerBlue" Stroke="SkyBlue" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+            </Grid>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="YearUsageType" Text="년간 물 사용량" Foreground="WhiteSmoke" FontWeight="Bold" Margin="0,5,0,0"/>
+                <TextBlock x:Name="YearValue" Text="{Binding YearlyUsageDisplay}" Foreground="AntiqueWhite" FontWeight="ExtraBold" FontSize="25" Margin="4,2,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

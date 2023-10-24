@@ -1,6 +1,6 @@
 ﻿namespace LCD_UI_Desigin_EX
 {
-    partial class Time_Weather_Info
+    partial class Time_Weather_Info2
     {
         /// <summary> 
         /// 필수 디자이너 변수입니다.
@@ -51,6 +51,7 @@
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(94)))), ((int)(((byte)(120)))));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel1, 0, 0);
@@ -66,7 +67,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel1.BackgroundImage = global::LCD_UI_Desigin_EX.Properties.Resources.topPanel2;
+            this.tableLayoutPanel1.BackgroundImage = global::LCD_UI_Desigin_EX.Properties.Resources.LCDSettop_Blue;
             this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.87845F));
@@ -131,7 +132,7 @@
             this.label2.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
             this.label2.Size = new System.Drawing.Size(198, 81);
             this.label2.TabIndex = 0;
-            this.label2.Text = "11:50";
+            this.label2.Text = "11:49";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label6
@@ -304,7 +305,7 @@
             this.label5.Text = "😷";
             this.label5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // Time_Weather_Info
+            // Time_Weather_Info2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -312,7 +313,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Controls.Add(this.tableLayoutPanel2);
             this.DoubleBuffered = true;
-            this.Name = "Time_Weather_Info";
+            this.Name = "Time_Weather_Info2";
             this.Size = new System.Drawing.Size(420, 185);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);

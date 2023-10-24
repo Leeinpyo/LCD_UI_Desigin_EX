@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="LCD_UI_Desigin_EX.FloorNumber"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LCD_UI_Desigin_EX"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="150">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <!-- 첫 번째, 두 번째, 세 번째 영역을 위한 RowDefinitions -->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ScrollViewer 전체 Grid에 걸쳐 위치 -->
+        <ScrollViewer x:Name="FloorScrollViewer" 
+                      Grid.RowSpan="3"
+                      VerticalScrollBarVisibility="Hidden"
+                      HorizontalScrollBarVisibility="Hidden"
+                      PreviewMouseWheel="FloorScrollViewer_PreviewMouseWheel">
+            <StackPanel x:Name="FloorStackPanel" Orientation="Vertical">
+                <StackPanel.RenderTransform>
+                    <TranslateTransform x:Name="FloorTranslateTransform"/>
+                </StackPanel.RenderTransform>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- 첫 번째 영역의 ▲ 아이콘 -->
+        <TextBlock x:Name="UpArrow" Text="▲" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Panel.ZIndex="1" FontSize="20" Foreground="SteelBlue" FontFamily="Arial Black" FontWeight="Bold" Margin="0,0,0,5"/>
+
+        <!-- 세 번째 영역의 ▼ 아이콘 -->
+        <TextBlock x:Name="DownArrow" Text="▼" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Panel.ZIndex="1" FontSize="20" Foreground="SteelBlue" FontFamily="Arial Black" FontWeight="Bold" Margin="0,0,0,5"/>
+
+    </Grid>
+</UserControl>
